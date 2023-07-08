@@ -1,0 +1,30 @@
+.formulario-agregar-producto-input{
+    padding: .5rem .5rem 2.5rem .5rem ;
+    border: none;
+	border-bottom: 1px solid #C8C8C8;
+
+
+}
+
+.formulario-agregar-producto-input::-webkit-input-placeholder{
+    font-size: 15px;
+}
+
+.imagen{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input-imagen{
+    width: 100%;
+}
+
+
+.agregar__imagen__boton__texto {
+    border: 1px solid #2A7AE4;
+    padding: 1rem 2rem;
+    color: #2A7AE4;
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+}
