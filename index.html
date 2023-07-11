@@ -200,12 +200,12 @@
                 <h3 class="footer_formulario__titulo">Hable con nosotros</h3>
                 <form action="">
                     <div class="formulario__input-container">
-                        <input name="nombre" id="nombre" class="input inputs" type="text" placeholder="" required data-tipo="nombre">
+                        <input name="nombre" id="nombre" class="input inputs" type="text" placeholder="" required pattern="^[\s\S]{0,40}$" data-tipo="nombre">
                         <label class="input-label" for="nombre">Nombre</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="formulario__textarea-container">
-                        <textarea name="mensaje" id="mensaje" class="textarea inputs" rows="5" type="text" placeholder="" required data-tipo="mensaje"></textarea>
+                        <textarea name="mensaje" id="mensaje" class="textarea inputs" rows="5" type="text" placeholder="" required pattern="/^[A-Za-z0-9.]{0,10}$/" data-tipo="mensaje"></textarea>
                         <label class="input-label" for="mensaje">Escribe tu mensaje</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
@@ -220,8 +220,6 @@
     <p class="rodapie__texto">2023</p>
 </footer>
 
-<script src="/controllers/busqueda.controller.js" type="module"></script>
-<script src="./controllers/client.controller.js" type="module"></script>
 <script src="./js/app.js" type="module"></script>
   </body>
 </html>
