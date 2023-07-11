@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  ![alura geek](https://user-images.githubusercontent.com/42880872/167768018-5d2ffe29-1fdd-40db-a738-05cc72aca61d.png)
+  ![alura geek](https://github.com/basco1979/ecommerce-alura-geek/assets/31827536/3256c1c5-72f3-442c-8929-96b5385786a7)
 
 </div>
 
@@ -27,6 +27,4 @@ _Este repositorio fue creado como solución al Challengue Frontend #2 propuesto 
 * Javascript
 * JSON - Api Rest
 
-<div align="center">
-Creado por [BskDev](https://github.com/basco1979) 😊
-</div>
+  [Creado por BskDev](https://github.com/basco1979)
