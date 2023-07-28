@@ -18,8 +18,7 @@
     <div class="header">
         <a href="../index.html"><img src="../assets/img/Logo.svg" alt="Logo Alura Geek" class="logo" /></a>
         <div class="barra-de-busqueda">
-            <input type="search" class="buscador" alt="Que deseas buscar?" placeholder="Qué deseas buscar?"
-                data-buscador />
+        <input class="buscador" type="text" placeholder="¿Que deseas buscar?" data-buscador>
             <img src="../assets/img/lupa.svg" class="lupa" />
         </div>
         <a href="./vistas/login.html" class="boton-login">LOGIN</a>
@@ -81,5 +80,9 @@
         <p class="rodapie__texto">Desarrollado por Sebastian Basconcelo</p>
         <p class="rodapie__texto">2023</p>
     </footer>
+      <script src="./js/app.js" type="module"></script>
+     <script type="module" src="/services/client-service.js"></script>
+    <script type="module" src="/controllers/client.controller.js"></script>
+    <script type="module" src="/controllers/busqueda.js"></script>
     <script type="module" src="/controllers/buscador-controller.js"></script>
 </body>
