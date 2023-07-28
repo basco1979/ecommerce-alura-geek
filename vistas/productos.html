@@ -39,123 +39,16 @@
           <h1 class="title-todos-los-productos">Todos los productos</h1>
           <div class="agregar-producto">
             <a
-              href="./vistas/agregar-producto.html"
+              href="./agregar-producto.html"
               class="boton-agregar-producto"
               >Agregar producto</a
             >
           </div>
         </div>
         <div class="imagenes-productos imagenes-productos-todos">
-          <div>
-            <img src="../assets/img/star-wars/producto_1.png" />
-            <p class="producto-texto">Producto XYZ</p>
-            <p class="producto-precio">$ 60.00</p>
-            <p class="producto-texto"># 1111111</p>
-          </div>
-          <div>
-            <img src="../assets/img/star-wars/producto_2.png" />
-            <p class="producto-texto">Producto XYZ</p>
-            <p class="producto-precio">$ 60.00</p>
-            <p class="producto-texto"># 1111111</p>
-          </div>
-          <div>
-            <img src="../assets/img/star-wars/producto_3.png" />
-            <p class="producto-texto">Producto XYZ</p>
-            <p class="producto-precio">$ 60.00</p>
-            <p class="producto-texto"># 1111111</p>
-          </div>
-          <div>
-            <img src="../assets/img/star-wars/producto_4.png" />
-            <p class="producto-texto">Producto XYZ</p>
-            <p class="producto-precio">$ 60.00</p>
-            <p class="producto-texto"># 1111111</p>
-          </div>
-          <div>
-            <img src="../assets/img/star-wars/producto_5.png" />
-            <p class="producto-texto">Producto XYZ</p>
-            <p class="producto-precio">$ 60.00</p>
-            <p class="producto-texto"># 1111111</p>
-          </div>
-          <div>
-            <img src="../assets/img/star-wars/producto_6.png" />
-            <p class="producto-texto">Producto XYZ</p>
-            <p class="producto-precio">$ 60.00</p>
-            <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/consolas/consola_1.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/consolas/consola_2.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/consolas/consola_3.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/consolas/consola_4.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/consolas/consola_5.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/consolas/consola_6.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/diversos/diversos_1.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/diversos/diversos_2.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/diversos/diversos_3.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/diversos/diversos_4.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/diversos/diversos_5.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        <div>
-          <img src="../assets/img/diversos/diversos_6.png" />
-          <p class="producto-texto">Producto XYZ</p>
-          <p class="producto-precio">$ 60.00</p>
-          <p class="producto-texto"># 1111111</p>
-        </div>
-        </div>
-      </section>
+        <div class="contenedor__producto" data-todos-productos></div>
+       </div>
+       </section>
       <section class="footer">
         <div class="contenido__footer container">
           <div class="contenido__footer_info">
@@ -234,5 +127,10 @@
       <p class="rodapie__texto">Desarrollado por Sebastian Basconcelo</p>
       <p class="rodapie__texto">2023</p>
     </footer>
+   <script type="module" src="/controllers/todo-productos.js"></script>
+    <script type="module" src="/services/client-service.js"></script>
+    <script type="module" src="/controllers/cliente-controller.js"></script>
+    <script type="module" src="/controllers/crear-producto-controller.js"></script>
+    <script type="module" src="/controllers/busqueda.js"></script>
   </body>
 </html>

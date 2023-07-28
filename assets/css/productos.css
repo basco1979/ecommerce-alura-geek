@@ -13,12 +13,21 @@
     font-size: 32px;
     line-height: 37.57px;
 }
+.contenedor__producto {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: no-wrap;
+}
 
 .ver-todo{
     display: flex;
     padding : 1rem;
     gap: 1rem;
     color: #2A7AE4;
+}
+
+.ver-todo-p{
+    display: inline;
 }
 
 .flecha{
@@ -58,6 +67,10 @@
     gap: 10px;
 }
 
+.contenedor__producto{
+    flex-wrap: wrap;
+}
+
 .title-todos-los-productos{
     margin-bottom: 1rem;
 }
@@ -76,6 +89,14 @@
 
 .imagenes-productos-todos{
     flex-wrap: wrap;
+}
+
+.producto__card__imagen{
+     height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 767px){

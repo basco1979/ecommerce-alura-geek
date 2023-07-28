@@ -28,3 +28,27 @@
     width: 50%;
     text-align: center;
 }
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #5ccdfe;
+    box-shadow: 0 0 0 2px rgba(74, 149, 248, 0.3);
+}
+
+select option {
+    background-color: #fff;
+    color: #000;
+}
+
+select option:checked {
+    background-color: #5ccdfe;
+    color: #fff;
+}
