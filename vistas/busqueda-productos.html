@@ -2,47 +2,50 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alura Geek</title>
-  <link href="../assets/css/reset.css" rel="stylesheet" />
-  <link href="../assets/css/styles.css" rel="stylesheet" />
-  <link href="../assets/css/footer.css" rel="stylesheet" />
-  <link href="../assets/css/productos.css" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alura Geek</title>
+    <link href="../assets/css/reset.css" rel="stylesheet" />
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+    <link href="../assets/css/footer.css" rel="stylesheet" />
+    <link href="../assets/css/productos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="header">
-      <a href="../index.html"><img src="../assets/img/Logo.svg" alt="Logo Alura Geek" class="logo" /></a>
-      <div class="barra-de-busqueda">
-        <input type="search" class="buscador" alt="Que deseas buscar?" placeholder="Qué deseas buscar?" data-buscador />
-        <img src="../assets/img/lupa.svg" class="lupa" />
-      </div>
-      <a href="./vistas/login.html" class="boton-login">LOGIN</a>
-      <img src="../assets/img/lupa.svg" class="lupa-mobile" />
+        <a href="../index.html"><img src="../assets/img/Logo.svg" alt="Logo Alura Geek" class="logo" /></a>
+        <div class="barra-de-busqueda">
+            <input type="search" class="buscador" alt="Que deseas buscar?" placeholder="Qué deseas buscar?"
+                data-buscador />
+            <img src="../assets/img/lupa.svg" class="lupa" />
+        </div>
+        <a href="./vistas/login.html" class="boton-login">LOGIN</a>
+        <img src="../assets/img/lupa.svg" class="lupa-mobile" />
 
     </div>
 
-  </header>
+    </header>
 
     <main>
         <section>
-            <div class="contenedor__producto">
-                <div class="starwars__head">
-                    <h2 data-titulo-busqueda>Resultados de busqueda</h2>
+            <div>
+                <div class="title-productos" data-titulo-busqueda>
+                    <h2>Resultados de busqueda</h2>
                 </div>
-                <div class="contenedor__producto" data-productos-buscados></div>
+                <div class="imagenes-productos">
+                    <div class="contenedor__producto" data-productos-busqueda></div>
+                </div>
             </div>
         </section>
 
     </main>
-   <section class="footer">
+    <section class="footer">
         <div class="contenido__footer container">
             <div class="contenido__footer_info">
-                <a href="./index.html"><img class="header__logo" src="./assets/img/Logo.svg"
+                <a href="./index.html"><img class="header__logo" src="../assets/img/Logo.svg"
                         alt="logo de alura geek"></a>
                 <ul class="footer_links">
                     <li class="footer__enlace"><a href="./screens/error404.html">Quienes somos</a></li>
@@ -78,8 +81,5 @@
         <p class="rodapie__texto">Desarrollado por Sebastian Basconcelo</p>
         <p class="rodapie__texto">2023</p>
     </footer>
-    <script type="module" src="/services/client-service.js"></script>
-    <script type="module" src="/controllers/cliente-controller.js"></script>
-    <script type="module" src="/controllers/crear-producto-controller.js"></script>
     <script type="module" src="/controllers/buscador-controller.js"></script>
 </body>
