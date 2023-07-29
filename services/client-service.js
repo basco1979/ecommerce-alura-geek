@@ -1,4 +1,4 @@
-const datosUsuarios = () => fetch('https://alura-geek-ogs3.onrender.com/usuarios').then(respuesta => respuesta.json());
+const datosUsuarios = async () => await fetch('https://alura-geek-ogs3.onrender.com/usuarios').then(respuesta => respuesta.json());
 
 //consultar productos
 const listaProductos = () => fetch('https://alura-geek-ogs3.onrender.com/productos').then(respuesta => respuesta.json());
