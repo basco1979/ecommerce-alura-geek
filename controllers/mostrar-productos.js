@@ -8,7 +8,7 @@ export const mostrarProducto = (nombre, precio, imagen, id, categoria, descripci
     <img src=${imagen} />
     <h3 class="producto-texto" data-nombre-producto>${nombre}</h3>
     <p class="producto-precio">$${precio}</p>
-    <a class="producto-link" href="../vistas/detalles-producto.html?id=${id}">Ver producto</a> 
+    <a class="producto-link" href="./vistas/detalles-producto.html?id=${id}">Ver producto</a> 
     </div>
     `;
 
