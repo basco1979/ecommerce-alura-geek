@@ -4,7 +4,6 @@ let user = '';
 let password = '';
 clientServices.datosUsuarios().then((data) => {
   data.forEach((x) => {
-    console.log(x);
     user = x.usuario;
     password = x.password;
   });
@@ -19,8 +18,6 @@ btnEnviar.addEventListener('click', (evento) => {
 const loginUsuario = () => {
   const usuarioIngresado = document.querySelector('#usuario').value;
   const passwordIngresado = document.querySelector('#password').value;
-  console.log(user);
-  console.log(password);
 
   if (usuarioIngresado === user && passwordIngresado === password) {
     Swal.fire({
